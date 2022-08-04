@@ -1,0 +1,9 @@
+
+CREATE TABLE `Employee_Details` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(25) NOT NULL,
+  `Password` varchar(25) NOT NULL,
+  `Email` varchar(50) NOT NULL,
+  `Country` varchar(25) NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
